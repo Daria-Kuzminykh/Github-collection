@@ -1,0 +1,16 @@
+@import './variables';
+@import './mixins';
+@import './fonts.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+  

@@ -1,0 +1,27 @@
+@import 'style/variables';
+
+.Header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: rgb(59, 148, 166);
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    
+    &.Section {
+      padding: 10px 20px;
+    }
+  }
+
+  &__logo {
+    color: $white;
+  }
+
+  &__nav {
+    justify-content: flex-end;
+    max-width: 40%;
+  }
+}
