@@ -1,0 +1,21 @@
+@import 'style/variables';
+@import 'style/mixins';
+
+@keyframes loader {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Loader {
+  @include center;
+
+  &__icon {
+    width: 70px;
+    height: 70px;
+    animation: loader 1s linear infinite;
+  }
+}

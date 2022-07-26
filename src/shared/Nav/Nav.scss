@@ -10,4 +10,8 @@
     flex-direction: column;
     row-gap: 15px;
   }
+
+  &__link {
+    color: $white;
+  }
 }

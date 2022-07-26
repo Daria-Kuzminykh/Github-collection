@@ -5,18 +5,19 @@
   top: 0;
   right: 0;
   left: 0;
-  background-color: rgb(59, 148, 166);
+  background-color: #db8318;
 
   &__container {
     display: flex;
     justify-content: space-between;
     
     &.Section {
-      padding: 10px 20px;
+      padding: 20px 20px;
     }
   }
 
   &__logo {
+    font-size: 24px;
     color: $white;
   }
 

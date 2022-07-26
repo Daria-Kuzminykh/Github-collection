@@ -24,6 +24,7 @@ export default function Nav(props: INav) {
                <Link
                     key={index}
                     to={item.toRoute}
+                    className={bem.element('link')}
                >
                    {item.label}
                </Link>

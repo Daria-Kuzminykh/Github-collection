@@ -1,4 +1,4 @@
-type TModifiers = Record<string, string | boolean> | string | null;
+type TModifiers = Record<string, string | boolean | undefined> | string | null;
 
 export default class Bem {
     constructor(
