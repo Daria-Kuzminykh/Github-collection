@@ -1,5 +1,5 @@
 import React from 'react';
-import {useBem} from 'hooks/useBem';
+import {useBem} from 'light-react-ui-lib';
 
 import './FavoritePage.scss';
 import Section from 'shared/layout/Section';

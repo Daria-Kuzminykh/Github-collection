@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {useBem} from 'hooks/useBem';
+import {useBem} from 'light-react-ui-lib';
 import InputSearch from 'shared/InputSearch';
 import {useSearchUsersQuery} from 'store/github/github.api';
 import ErrorMessage from 'shared/ErrorMessage';

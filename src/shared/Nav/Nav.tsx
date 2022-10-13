@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import {useBem} from 'hooks/useBem';
+import {useBem} from 'light-react-ui-lib';
 
 import './Nav.scss';
 

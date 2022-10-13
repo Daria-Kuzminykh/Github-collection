@@ -1,6 +1,6 @@
 import React from 'react';
 import {MAIN_ROUTES} from '../../../consts/routes';
-import {useBem} from 'hooks/useBem';
+import {useBem} from 'light-react-ui-lib';
 import Nav from '../../Nav';
 
 import './Header.scss';

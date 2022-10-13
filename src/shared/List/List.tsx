@@ -1,5 +1,5 @@
 import React from 'react';
-import {useBem} from 'hooks/useBem';
+import {useBem} from 'light-react-ui-lib';
 import Loader from 'shared/Loader';
 
 import './List.scss';
